@@ -1,0 +1,20 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "APIs to fetch, delete or change status of Todos",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd src && nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^0.19.1",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
